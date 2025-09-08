@@ -66,19 +66,20 @@ Logs are saved in pipeline_logs/ for easy monitoring 🔧
 
 ### 📊 Page 1 – High-Level Financial Overview
 
-<img width="1067" height="800" alt="image" src="https://github.com/user-attachments/assets/b68c0d16-9804-4e42-a3c2-bb16d1c7ae52" />
+<img width="956" height="720" alt="image" src="https://github.com/user-attachments/assets/b036f732-49de-4a27-8624-5c057d6e4ce2" />
 
 ### 📊 Page 2 – Department Spend vs Budget Comparison
 
-<img width="1075" height="808" alt="image" src="https://github.com/user-attachments/assets/377ae4d6-bf96-4604-a9f4-fff07c48caa4" />
+<img width="956" height="721" alt="image" src="https://github.com/user-attachments/assets/f2f480ae-dfb1-41f7-ae94-9d8465033be6" />
 
 ### 📊 Page 3 – Monthly Trends
 
-<img width="959" height="723" alt="image" src="https://github.com/user-attachments/assets/b9b8bca0-0fe3-4ccf-a829-ed78c45adb97" />
+<img width="963" height="722" alt="image" src="https://github.com/user-attachments/assets/54d0e95a-b7be-44de-8b04-72021ff820e9" />
 
 ### 📊 Page 4 – Forecast vs Actual Insights
 
-<img width="955" height="714" alt="image" src="https://github.com/user-attachments/assets/076a3eaa-a6bb-4a44-bed8-7eaf5eaae367" />
+<img width="961" height="713" alt="image" src="https://github.com/user-attachments/assets/00c2b2e0-3306-4564-805a-054190faa272" />
+
 
 
 ## How to Run the Pipeline Locally

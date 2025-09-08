@@ -1,0 +1,23 @@
+[2025-09-07 19:50:43] Pipeline started.
+[2025-09-07 19:50:43] Using input file: C:\Users\muham\Desktop\Finance Automation Project\input\General-Ledger.xlsx
+[2025-09-07 19:50:43] Saved cleaned files to cleaned/ folder.
+[2025-09-07 19:50:43] Pipeline completed successfully.
+[2025-09-07 20:17:05] Pipeline started.
+[2025-09-07 20:17:05] Using ledger input file: input/General-Ledger.xlsx
+[2025-09-07 20:17:05] Using budget input file: input/Budget-Forecast.xlsx
+[2025-09-07 20:17:05] Saved cleaned files to cleaned/ folder.
+[2025-09-07 20:17:05] Pipeline completed successfully.
+[2025-09-07 22:08:33] Pipeline started.
+[2025-09-07 22:08:33] Using ledger input file: input/General-Ledger.xlsx
+[2025-09-07 22:08:33] Using budget input file: input/Budget-Forecast.xlsx
+[2025-09-07 22:08:33] Saved cleaned files to cleaned/ folder.
+[2025-09-07 22:08:33] Pipeline completed successfully.
+[2025-09-07 22:08:34] Saving cleaned ledger to: C:\Users\muham\Desktop\Finance Automation Project\cleaned\General-Ledger-Cleaned_20250907_220834.xlsx
+[2025-09-07 22:08:34] Saving cleaned budget to: C:\Users\muham\Desktop\Finance Automation Project\cleaned\Budget-Forecast-Cleaned_20250907_220834.xlsx
+[2025-09-07 22:19:06] Pipeline started.
+[2025-09-07 22:19:06] Using ledger input file: input/General-Ledger.xlsx
+[2025-09-07 22:19:06] Using budget input file: input/Budget-Forecast.xlsx
+[2025-09-07 22:19:06] Saved cleaned files to cleaned/ folder.
+[2025-09-07 22:19:06] Pipeline completed successfully.
+[2025-09-07 22:19:06] Saving cleaned ledger to: C:\Users\muham\Desktop\Finance Automation Project\cleaned\General-Ledger-Cleaned_20250907_221906.xlsx
+[2025-09-07 22:19:07] Saving cleaned budget to: C:\Users\muham\Desktop\Finance Automation Project\cleaned\Budget-Forecast-Cleaned_20250907_221906.xlsx

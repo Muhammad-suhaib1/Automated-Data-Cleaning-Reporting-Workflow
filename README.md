@@ -21,13 +21,13 @@ This project solves that by automating the entire flow end-to-end — making dat
 ## ⚡ Project Structure
 
 Finance Automation Project/
--├── input/               ← Drop raw Excel files here (General-Ledger.xlsx, Budget-Forecast.xlsx)
--├── cleaned/             ← Cleaned Excel reports with timestamps are saved here
--├── pipeline.py          ← Main automation script
--├── finance.db           ← SQLite database (auto-generated and updated)
--├── pipeline_logs/       ← Logs for every run (success, errors, timestamps)
--├── visuals/             ← Add dashboard screenshots here
--├── README.md            ← Project overview & guide (this file)
+- ├── input/               ← Drop raw Excel files here (General-Ledger.xlsx, Budget-Forecast.xlsx)
+- ├── cleaned/             ← Cleaned Excel reports with timestamps are saved here
+- ├── pipeline.py          ← Main automation script
+- ├── finance.db           ← SQLite database (auto-generated and updated)
+- ├── pipeline_logs/       ← Logs for every run (success, errors, timestamps)
+- ├── visuals/             ← Add dashboard screenshots here
+- ├── README.md            ← Project overview & guide (this file)
 
 ## How It Works
  

@@ -21,77 +21,79 @@ This project solves that by automating the entire flow end-to-end — making dat
 ## ⚡ Project Structure
 
 Finance Automation Project/
-├── input/               ← Drop raw Excel files here (General-Ledger.xlsx, Budget-Forecast.xlsx)
-├── cleaned/             ← Cleaned Excel reports with timestamps are saved here
-├── pipeline.py          ← Main automation script
-├── finance.db           ← SQLite database (auto-generated and updated)
-├── pipeline_logs/       ← Logs for every run (success, errors, timestamps)
-├── visuals/             ← Add dashboard screenshots here
-├── README.md            ← Project overview & guide (this file)
+-├── input/               ← Drop raw Excel files here (General-Ledger.xlsx, Budget-Forecast.xlsx)
+-├── cleaned/             ← Cleaned Excel reports with timestamps are saved here
+-├── pipeline.py          ← Main automation script
+-├── finance.db           ← SQLite database (auto-generated and updated)
+-├── pipeline_logs/       ← Logs for every run (success, errors, timestamps)
+-├── visuals/             ← Add dashboard screenshots here
+-├── README.md            ← Project overview & guide (this file)
 
 ## How It Works
  
-- Item 2  
-     
-- Item 1 1️⃣ Auto Data Pull & Clean:
+1️⃣ Auto Data Pull & Clean:
 
-- Sub-item Every week, the pipeline detects new raw Excel files in the input/ folder.
-- Sub-item Python cleans messy data intelligently (fixes types, removes duplicates, handles missing values, etc.).
-- Sub-item Saves cleaned reports in cleaned/ folder (with timestamp).
+- Every week, the pipeline detects new raw Excel files in the input/ folder.
+- Python cleans messy data intelligently (fixes types, removes duplicates, handles missing values, etc.).
+- Saves cleaned reports in cleaned/ folder (with timestamp).
 
 2️⃣ Database Update:
 
-- Sub-item Cleaned data is loaded into a centralized SQLite database (finance.db).
-- Sub-item Prebuilt SQL queries run automatically to calculate key insights:
-- Sub-item Spend trends by department
-- Sub-item Profit vs cost comparisons
-- Sub-item Monthly patterns
-- Sub-item Forecast vs actual comparisons
+- Cleaned data is loaded into a centralized SQLite database (finance.db).
+- Prebuilt SQL queries run automatically to calculate key insights:
+- Spend trends by department
+- Profit vs cost comparisons
+- Monthly patterns
+- Forecast vs actual comparisons
 
 3️⃣ Visualization in Power BI:
 
-- Sub-item Database connects to Power BI via ODBC.
-- Sub-item Power BI refreshes visuals automatically as the DB updates.
-- Sub-item Interactive dashboards show clean, actionable insights.
+- Database connects to Power BI via ODBC.
+- Power BI refreshes visuals automatically as the DB updates.
+- Interactive dashboards show clean, actionable insights.
 
 4️⃣ Pipeline Logs:
 
-- Sub-item Every time the pipeline runs, a log is generated:
-- Sub-item Timestamp: 2025-09-08 02:00:01  
-- Sub-item Status: SUCCESS  
-- Sub-item New files detected: General-Ledger.xlsx, Budget-Forecast.xlsx  
-- Sub-item Cleaned files saved → finance.db updated ✅
+- Every time the pipeline runs, a log is generated:
+- Timestamp: 2025-09-08 02:00:01  
+- Status: SUCCESS  
+- New files detected: General-Ledger.xlsx, Budget-Forecast.xlsx  
+- Cleaned files saved → finance.db updated ✅
   
 Logs are saved in pipeline_logs/ for easy monitoring 🔧
 
 ## Visual Preview
 
-📊 Page 1 – High-Level Financial Overview
+### 📊 Page 1 – High-Level Financial Overview
+
 <img width="1067" height="800" alt="image" src="https://github.com/user-attachments/assets/b68c0d16-9804-4e42-a3c2-bb16d1c7ae52" />
 
-📊 Page 2 – Department Spend vs Budget Comparison
+### 📊 Page 2 – Department Spend vs Budget Comparison
+
 <img width="1075" height="808" alt="image" src="https://github.com/user-attachments/assets/377ae4d6-bf96-4604-a9f4-fff07c48caa4" />
 
-📊 Page 3 – Monthly Trends
+### 📊 Page 3 – Monthly Trends
+
 <img width="959" height="723" alt="image" src="https://github.com/user-attachments/assets/b9b8bca0-0fe3-4ccf-a829-ed78c45adb97" />
 
-📊 Page 4 – Forecast vs Actual Insights
+### 📊 Page 4 – Forecast vs Actual Insights
+
 <img width="955" height="714" alt="image" src="https://github.com/user-attachments/assets/076a3eaa-a6bb-4a44-bed8-7eaf5eaae367" />
 
 
 ## How to Run the Pipeline Locally
 
 1. Place raw Excel files in input/:
-General-Ledger.xlsx
-Budget-Forecast.xlsx
+- General-Ledger.xlsx
+- Budget-Forecast.xlsx
 
 2. Run the automation pipeline:
 
-python pipeline.py
-Cleaned reports will appear in cleaned/.
-SQLite DB will be updated with new data and queries.
-Logs will appear in pipeline_logs/.
-Power BI will automatically pick up the latest DB state (via ODBC) and refresh visuals.
+- python pipeline.py
+- Cleaned reports will appear in cleaned/.
+- SQLite DB will be updated with new data and queries.
+- Logs will appear in pipeline_logs/.
+- Power BI will automatically pick up the latest DB state (via ODBC) and refresh visuals.
 
 ## Final Thoughts
 

